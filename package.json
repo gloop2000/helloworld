@@ -1,14 +1,18 @@
 {
   "name": "helloworld",
   "displayName": "HelloWorld",
-  "description": "",
-  "version": "0.0.1",
+  "description": "A sample extension",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gloop2000/helloworld.git"
+  },
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
